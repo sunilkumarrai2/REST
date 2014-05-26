@@ -26,3 +26,4 @@ public class UserInfo {
 		return "<User>" + "<Age>" + age + "</Age>" + "</User>";
 	}
 }
+//go to this url http://localhost:8080/RESTfulWS/rest/UserInfoService/name/Pavithra

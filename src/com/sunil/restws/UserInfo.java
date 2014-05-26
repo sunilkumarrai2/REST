@@ -9,7 +9,8 @@ import javax.ws.rs.core.MediaType;;
 //@Path here defines class level path. Identifies the URI path that a resource class will serve requests for.
 @Path("UserInfoService")
 public class UserInfo {
-
+	
+	// @GET here defines, this method will method will process HTTP GET
 	@GET
 	@Path("/name/{i}")
 	@Produces(MediaType.TEXT_XML)

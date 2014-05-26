@@ -6,6 +6,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;;
 
+//@Path here defines class level path. Identifies the URI path that a resource class will serve requests for.
 @Path("UserInfoService")
 public class UserInfo {
 
